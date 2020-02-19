@@ -1,0 +1,26 @@
+---
+title: "Homework 4"
+author: "[Group names]"
+date: ""
+output: 
+  html_document:
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA, message = FALSE,
+                      warning = FALSE)
+```
+
+## Packages
+
+```{r packages}
+library(tidyverse)
+```
+
+## Data
+
+```{r}
+nasa <- readRDS(file = "data/nasa.rds")
+```
+
